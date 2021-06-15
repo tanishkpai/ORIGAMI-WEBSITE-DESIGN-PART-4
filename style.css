@@ -1,0 +1,90 @@
+*{background-color: beige;}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: blueviolet;
+    text-shadow: burlywood 3px 3px;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    color: crimson;
+}
+
+button{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: darkred 2px 2px;
+}
+
+p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: monospace ;
+    color: dodgerblue;
+}
+
+.Whitehat{
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    align-self: flex-start;
+    /* flex-basis: 10rem; */
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    border: double;
+    margin: 40px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.hamburger{
+    font-size: 2rem;
+    margin-right: 200px;
+    align-self: start;
+}
+
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.button{
+    margin-left: 100px;
+}
